@@ -29,6 +29,6 @@ public class Veiculo {
         if (litrosConsumidos == 0) {
             return 0;
         }
-        return quilometrosPercorridos / litrosConsumidos;
+        return litrosConsumidos / quilometrosPercorridos;
     }
 }
